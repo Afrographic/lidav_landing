@@ -1,0 +1,18 @@
+.w_800{
+    width: 800px;
+}
+
+.project_item{
+    padding:16px;
+    border-radius: 8px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.project_item:hover{
+    background-color: #181818;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}

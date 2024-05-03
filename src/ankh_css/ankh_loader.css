@@ -1,0 +1,50 @@
+/* Loader CSS */
+.loader {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: -1px 8px 20px 6px #5252521c;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  z-index: 500000;
+  transition: 0.5s;
+
+  /* Positioning */
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  opacity: 0;
+  pointer-events: none;
+}
+
+.loader.active {
+  top: 50%;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.fade_imhotep_loader {
+  animation: fade_fuck 1s ease infinite;
+}
+
+@keyframes fade_fuck {
+  0% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+}

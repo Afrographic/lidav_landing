@@ -1,0 +1,19 @@
+.w400{
+    width: 400px;
+}
+
+.feature_item{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    padding:32px;
+    border:1px solid #D5D5D5;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: 0.25s;
+    height: 100%;
+}
+
+.feature_item:hover{
+    background-color: #f8f8f8;
+}

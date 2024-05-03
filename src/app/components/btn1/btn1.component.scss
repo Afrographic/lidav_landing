@@ -1,0 +1,19 @@
+.bt1{
+    display: flex;
+    gap:16px;
+    padding:16px 32px;
+    background-color: var(--blue);
+    border-radius: 66px;
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+}
+
+.bt1:active{
+    transform: scale(1.05);
+}
+
+.bt1:hover{
+    background-color: var(--orange);
+}

@@ -1,0 +1,10 @@
+<div class="column g8" [class.aic]="center">
+    <div  [class.g16]="!is_mobile" [class.g8]="is_mobile" [class.jcc]="center" [class.row]="!is_mobile" [class.column]="is_mobile" [class.w100p]="is_mobile">
+        <app-btn1 [icon]="'android'" [label]="'Telecharger Lidav 64bits'" (click)="download_64bits()"></app-btn1>
+        <app-btn1 [icon]="'android'" [label]="'Telecharger Lidav 32bits'" (click)="download_32bits()"></app-btn1>
+    </div>
+    <div class="small " [class.w430]="!is_mobile" [class.tac]="center || is_mobile" >
+        Si la version 64 bits ne fonctionne pas sur votre telephone, telecharger la version 32bits.
+        les fonctionnalites sont pareils sur les deux versions.
+    </div>
+</div>

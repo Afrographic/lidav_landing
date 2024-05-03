@@ -1,0 +1,18 @@
+.bt2 {
+  display: flex;
+  gap: 16px;
+  padding: 16px 32px;
+  background-color: #e3f4ff;
+  border-radius: 66px;
+  transition: 0.5s;
+  cursor: pointer;
+  align-items: center;
+}
+
+.bt2:active {
+  transform: scale(1.05);
+}
+
+.bt2:hover {
+  background-color:#acd1ea;
+}

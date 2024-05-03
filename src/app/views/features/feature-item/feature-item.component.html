@@ -1,0 +1,6 @@
+<div class="  feature_item" [class.w400]="!is_mobile">
+    <img src="assets/images/circle.svg" alt="" width="20px">
+    <div class="h2">{{title}}</div>
+    <div class="base f1"><ng-content></ng-content></div>
+    <app-btn2 [icon]="'play'" [label]="'Comment Ca marche?'" (click)="go_to_link()"></app-btn2>
+</div>
